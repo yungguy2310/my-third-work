@@ -1,0 +1,93 @@
+*,
+*::before,
+*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navigationbar{
+    
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    
+}
+.annabel{
+    width: 100px;
+}
+.links{
+    color: black;
+    list-style-type: none;
+}
+.contacts{
+    border-radius: 30px;
+    background-color: hsla(17, 100%, 74%, 0.152);
+    height: 40px;
+    border-color: black;
+    width: 140px;
+}
+.section1{
+    background-color: rgba(255, 160, 122, 0.529);
+}
+.hair{
+    width: 500px;
+    height: 500px;
+    border: hidden;
+    border-radius: 96px;
+}
+.textimage{
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 9px;
+    margin-right: 9px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.section2{
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: space-around;
+}
+.Pictures{
+    width: 230px;
+    border-radius: 110px;
+    margin-left: 29px;
+    height: 180px;
+}
+.Picturessp{
+    width: 230px;
+    border-radius: 110px;
+    height: 180px;
+    margin-left: 29px;
+}
+.borders{
+    border: groove;
+    border-color: #000000;
+    border-radius: 10px;
+    width: 300px;
+}
+.section3{
+    background-color: rgba(255, 160, 122, 0.529);
+}
+.form{
+    border: hidden;
+    width: 500px;
+    border-radius: 25px;
+    background-color: white;
+}
+.write{
+    height: 30px;
+    width: 320px;
+    border-color: #000000;
+    border-radius: 9px;
+    padding: 30px;
+    padding-left: 20px;
+}
+.select{
+    height: 30px;
+    width: 320px;
+    border-color: #000000;
+    border-radius: 9px;
+}
+.lastSection{
+    background-color: cadetblue;
+}
